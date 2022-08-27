@@ -1304,49 +1304,73 @@ a {
     height: auto;
   }
 }
-.cid-tfIfNGqO1V {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
+.cid-tfIoo13qL6 {
+  padding-top: 90px;
+  padding-bottom: 90px;
   background-color: #9ad5f1;
 }
-.cid-tfIfNGqO1V .container-fluid {
-  padding-left: 0;
+.cid-tfIoo13qL6 .showAlerts {
+  display: block !important;
 }
-.cid-tfIfNGqO1V .mbr-text,
-.cid-tfIfNGqO1V .mbr-section-btn {
+.cid-tfIoo13qL6 .rowflexrev {
+  display: -webkit-flex;
+}
+.cid-tfIoo13qL6 .ws-form-alerts {
+  margin-top: 1rem;
+}
+.cid-tfIoo13qL6 .title {
+  margin-bottom: 2rem;
+}
+.cid-tfIoo13qL6 .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-tfIoo13qL6 textarea.form-control {
+  min-height: 188px;
+}
+.cid-tfIoo13qL6 LABEL {
   color: #232323;
+  display: initial;
 }
-@media (max-width: 991px) {
-  .cid-tfIfNGqO1V .mbr-text,
-  .cid-tfIfNGqO1V .mbr-section-btn {
-    text-align: center;
-  }
+.cid-tfIoo13qL6 .mbr-section-terms {
+  text-align: center;
+  color: #232323;
+  margin-bottom: 0px;
 }
-@media (max-width: 991px) {
-  .cid-tfIfNGqO1V .mbr-text,
-  .cid-tfIfNGqO1V .mbr-section-title {
-    text-align: center;
-  }
+.cid-tfIoo13qL6 .mbr-section-labels {
+  color: #232323;
+  padding: 0;
+  margin-bottom: .357em;
+  text-align: left;
 }
-.cid-tfIfNGqO1V a.btn {
-  height: 100%;
-  margin: 0;
+.cid-tfIoo13qL6 .mbr-section-autorespond {
+  text-align: left;
+  color: #232323;
+  margin-bottom: 0px;
 }
-.cid-tfIfNGqO1V .mbr-section-btn {
-  display: flex;
-  margin-bottom: 1rem;
-  width: 100%;
+.cid-tfIoo13qL6 .mbr-section-gdpr {
+  text-align: left;
+  color: #232323;
+  margin-bottom: 0px;
 }
-.cid-tfIfNGqO1V .mbr-section-btn .btn {
-  width: 100%;
+.cid-tfIoo13qL6 .alert {
+  margin-bottom: 0;
 }
-@media (max-width: 991px) {
-  .cid-tfIfNGqO1V .image-wrapper {
-    margin-bottom: 2rem;
-  }
+.cid-tfIoo13qL6 .alert-success {
+  background-color: #70c770;
 }
-.cid-tfIfNGqO1V .justify-content-center {
-  align-items: center;
+.cid-tfIoo13qL6 .alert-danger {
+  background-color: #ff6666;
+}
+.cid-tfIoo13qL6 .btn {
+  display: inline-flex;
+}
+.cid-tfIoo13qL6 .mbr-alert-success {
+  text-align: left;
+  color: #ffffff;
+}
+.cid-tfIoo13qL6 .mbr-alert-danger {
+  text-align: left;
+  color: #ffffff;
 }
 .cid-jQkpnWNoq1 .float {
   position: fixed;
