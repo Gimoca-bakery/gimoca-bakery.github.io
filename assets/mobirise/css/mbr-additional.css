@@ -1304,50 +1304,6 @@ a {
     height: auto;
   }
 }
-.cid-sTAL2G7TWS {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  background-color: #9ad5f1;
-}
-.cid-sTAL2G7TWS .container-fluid {
-  padding-left: 0;
-}
-.cid-sTAL2G7TWS .mbr-text,
-.cid-sTAL2G7TWS .mbr-section-btn {
-  color: #232323;
-}
-@media (max-width: 991px) {
-  .cid-sTAL2G7TWS .mbr-text,
-  .cid-sTAL2G7TWS .mbr-section-btn {
-    text-align: center;
-  }
-}
-@media (max-width: 991px) {
-  .cid-sTAL2G7TWS .mbr-text,
-  .cid-sTAL2G7TWS .mbr-section-title {
-    text-align: center;
-  }
-}
-.cid-sTAL2G7TWS a.btn {
-  height: 100%;
-  margin: 0;
-}
-.cid-sTAL2G7TWS .mbr-section-btn {
-  display: flex;
-  margin-bottom: 1rem;
-  width: 100%;
-}
-.cid-sTAL2G7TWS .mbr-section-btn .btn {
-  width: 100%;
-}
-@media (max-width: 991px) {
-  .cid-sTAL2G7TWS .image-wrapper {
-    margin-bottom: 2rem;
-  }
-}
-.cid-sTAL2G7TWS .justify-content-center {
-  align-items: center;
-}
 .cid-jQkpnWNoq1 .float {
   position: fixed;
   width: 60px;
@@ -1376,4 +1332,139 @@ a {
 }
 .cid-jQkpnWNoq1 .hidden {
   display: none;
+}
+.cid-yJjYHNm7wK {
+  background-color: #ffb5b5;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+@media (max-width: 991px) {
+  .cid-yJjYHNm7wK .image-wrapper {
+    margin-bottom: 2rem;
+  }
+}
+.cid-yJjYHNm7wK .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-yJjYHNm7wK .container-fluid {
+  padding: 1;
+}
+.cid-yJjYHNm7wK .text-wrapper {
+  padding: 0 4rem;
+}
+@media (max-width: 768px) {
+  .cid-yJjYHNm7wK .text-wrapper {
+    padding: 0 2rem;
+  }
+}
+.cid-yJjYHNm7wK .showAlerts {
+  display: block !important;
+}
+.cid-yJjYHNm7wK .rowflexrev {
+  display: -webkit-flex;
+}
+.cid-yJjYHNm7wK .ws-form-alerts {
+  margin-top: 1rem;
+}
+.cid-yJjYHNm7wK .title {
+  margin-bottom: 2rem;
+}
+.cid-yJjYHNm7wK .mbr-section-subtitle {
+  color: #ffffff;
+}
+.cid-yJjYHNm7wK textarea.form-control {
+  min-height: 188px;
+}
+.cid-yJjYHNm7wK LABEL {
+  color: #232323;
+  display: initial;
+}
+.cid-yJjYHNm7wK .mbr-section-terms {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 0px;
+}
+.cid-yJjYHNm7wK .mbr-section-labels {
+  color: #232323;
+  padding: 0;
+  margin-bottom: .357em;
+  text-align: left;
+}
+.cid-yJjYHNm7wK .mbr-section-autorespond {
+  text-align: left;
+  color: #232323;
+  margin-bottom: 0px;
+}
+.cid-yJjYHNm7wK .mbr-section-gdpr {
+  text-align: center;
+  color: #232323;
+  margin-bottom: 0px;
+}
+.cid-yJjYHNm7wK .alert {
+  margin-bottom: 0;
+}
+.cid-yJjYHNm7wK .alert-success {
+  background-color: #70c770;
+}
+.cid-yJjYHNm7wK .alert-danger {
+  background-color: #ff4a52;
+}
+.cid-yJjYHNm7wK .btn {
+  display: inline-flex;
+}
+.cid-yJjYHNm7wK .hidden {
+  display: none;
+}
+.cid-yJjYHNm7wK .mbr-alert-success {
+  text-align: center;
+  color: #232323;
+}
+.cid-yJjYHNm7wK .mbr-alert-danger {
+  text-align: center;
+  color: #232323;
+}
+.cid-yJjYHNm7wK .uploadBtn {
+  padding-top: 13px !important;
+  padding-left: 12.5px !important;
+}
+.cid-yJjYHNm7wK input[type=file]::file-selector-button {
+  border: 1px solid #232323 !important;
+  padding: .2em .4em;
+  border-radius: .2em;
+  background-color: #cccccc !important;
+  color: #232323 !important;
+  transition: 0.3s;
+}
+.cid-yJjYHNm7wK input[type=file]::-webkit-file-upload-button {
+  border: 1px solid #232323 !important;
+  padding: .2em .4em;
+  border-radius: .2em;
+  background-color: #cccccc !important;
+  color: #232323 !important;
+  transition: 0.3s;
+}
+.cid-yJjYHNm7wK input[type=file]::-ms-browse {
+  border: 1px solid #232323 !important;
+  padding: .2em .4em;
+  border-radius: .2em;
+  background-color: #cccccc !important;
+  color: #232323 !important;
+  transition: 0.3s;
+}
+.cid-yJjYHNm7wK input,
+.cid-yJjYHNm7wK textarea {
+  background-color: #ffffff !important;
+}
+.cid-yJjYHNm7wK .form-control {
+  border: 3px solid #fafafa !important;
+}
+.cid-yJjYHNm7wK .form-control:hover {
+  border: 3px solid #409bc7 !important;
+}
+.cid-yJjYHNm7wK .form-control:focus {
+  border: 3px solid #409bc7 !important;
+}
+.cid-yJjYHNm7wK .mbr-section-title {
+  color: #000000;
 }
