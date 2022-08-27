@@ -16,30 +16,30 @@ foreach (["PHPMailer.php", "Exception.php", "SMTP.php"] as $f) {
 }
 
 // All mailform settings
-$to = "jdromeror17@gmail.com";														// To Address
-$toAlt = "{to-alt}";												// Additional Recipients
-$from = "{from}";													// From Address
-$fromName = "{from-name}";											// From Name
-$fromThem = ("{from-them}" == "1" ? true : false);					// Use Sender as From Address
-$fromThemReplyTo = ("{from-them-replyto}" == "1" ? true : false);	// Use Sender as Reply-To
-$fromNameThem = ("{from-name-them}" == "1" ? true : false);			// Use Sender Name as From Name
-$fromNameThemField = "{from-name-them-field}";						// Name of the field(s) that can contain the Sender Name
-$template = "{template}";											// Mail Template
-$autorespondSubjectPrefix = "{autorespond-subjectprefix}";			// Autorespond Form Subject Prefix
-$autorespondSubject = "{autorespond-subject}";						// Autorespond Custom Subject
-$autorespondTemplate = "{autorespond-template}";					// Autorespond Template
-$rcp = ("{recaptcha}" == "1" ? true : false);						// Use reCAPTCHA
-$rcpVersion = "{recaptcha-version}";								// reCAPTCHA Version
-$rcpScore = "{recaptcha-score}";									// reCAPTCHA Score
-$rcpSecret = "{recaptcha-secretkey}";								// reCAPTCHA Secret Key
-$smtp = ("{smtp}" == "1" ? true : false);							// Use SMTP
-$smtpDebug = ("{smtp-debug}" == "1" ? 3 : 0);						// SMTP Debug
-$smtpHost = "{smtp-host}";											// SMTP Host
-$smtpPort = "{smtp-port}";											// SMTP Port
-$smtpSecure = "{smtp-secure}";										// SMTP Use SSL/TLS (empty, ssl or tls)
-$smtpUsername = "{smtp-username}";									// SMTP Username
-$smtpPassword = "{smtp-password}";									// SMTP Password
-$attachmentsMimeTypes = explode(",", "{attachments-mimetypes}");	// Mime Types
+$to = "rgiselle136@gmail.com";														// To Address
+$toAlt = "Giselle:rgiselle136@gmail.com";												// Additional Recipients
+$from = "jdromeror17@gmail.com";													// From Address
+$fromName = "Your Name";											// From Name
+$fromThem = ("0" == "1" ? true : false);					// Use Sender as From Address
+$fromThemReplyTo = ("0" == "1" ? true : false);	// Use Sender as Reply-To
+$fromNameThem = ("0" == "1" ? true : false);			// Use Sender Name as From Name
+$fromNameThemField = "{name}";						// Name of the field(s) that can contain the Sender Name
+$template = "Hi,<br><br>You have received a new message from your website.<br><br>{formdata}<br><br>Date: {date}<br>Remote IP: {ip}<br><br>---<br>Have a nice day.";											// Mail Template
+$autorespondSubjectPrefix = "Re:";			// Autorespond Form Subject Prefix
+$autorespondSubject = "";						// Autorespond Custom Subject
+$autorespondTemplate = "Hi {name},<br><br>Thank you for your message. We'll get back to you as soon as we can.<br>Here's the information you sent us:<br><br>{formdata}<br><br>---<br>Have a nice day.";					// Autorespond Template
+$rcp = ("1" == "1" ? true : false);						// Use reCAPTCHA
+$rcpVersion = "2";								// reCAPTCHA Version
+$rcpScore = "0.5";									// reCAPTCHA Score
+$rcpSecret = "6LeGNrEhAAAAAD_qt5qTEacC20TdtMaFNzaDxAAR";								// reCAPTCHA Secret Key
+$smtp = ("0" == "1" ? true : false);							// Use SMTP
+$smtpDebug = ("0" == "1" ? 3 : 0);						// SMTP Debug
+$smtpHost = "";											// SMTP Host
+$smtpPort = "";											// SMTP Port
+$smtpSecure = "";										// SMTP Use SSL/TLS (empty, ssl or tls)
+$smtpUsername = "";									// SMTP Username
+$smtpPassword = "";									// SMTP Password
+$attachmentsMimeTypes = explode(",", "application/gzip,application/java-archive,application/json,application/ld+json,application/msword,application/ogg,application/pdf,application/rtf,application/vnd.amazon.ebook,application/vnd.api+json,application/vnd.apple.installer+xml,application/vnd.mozilla.xul+xml,application/vnd.ms-excel,application/vnd.ms-fontobject,application/vnd.ms-powerpoint,application/vnd.oasis.opendocument.presentation,application/vnd.oasis.opendocument.spreadsheet,application/vnd.oasis.opendocument.text,application/vnd.openxmlformats-officedocument.presentationml.presentation,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.rar,application/vnd.visio,application/x-7z-compressed,application/x-abiword,application/x-bzip,application/x-bzip2,application/x-freearc,application/x-httpd-php,application/x-tar,application/x-www-form-urlencoded,application/xhtml+xml,application/xml,application/zip,application/zstd,audio/*,font/*,image/*,multipart/form-data,text/plain,text/calendar,text/css,text/csv,text/rtf,video/*");	// Mime Types
 
 
 // Simple status page
