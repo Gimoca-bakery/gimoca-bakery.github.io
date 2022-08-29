@@ -18,9 +18,9 @@ foreach (["PHPMailer.php", "Exception.php", "SMTP.php"] as $f) {
 // All mailform settings
 $to = "rgiselle136@gmail.com";														// To Address
 $toAlt = "Giselle:rgiselle136@gmail.com";												// Additional Recipients
-$from = "jdromeror17@gmail.com";													// From Address
+$from = "rgiselle136@gmail.com";													// From Address
 $fromName = "Your Name";											// From Name
-$fromThem = ("0" == "1" ? true : false);					// Use Sender as From Address
+$fromThem = ("1" == "1" ? true : false);					// Use Sender as From Address
 $fromThemReplyTo = ("0" == "1" ? true : false);	// Use Sender as Reply-To
 $fromNameThem = ("0" == "1" ? true : false);			// Use Sender Name as From Name
 $fromNameThemField = "{name}";						// Name of the field(s) that can contain the Sender Name
