@@ -20,17 +20,17 @@ $to = "rgiselle136@gmail.com";														// To Address
 $toAlt = "Giselle:rgiselle136@gmail.com";												// Additional Recipients
 $from = "rgiselle136@gmail.com";													// From Address
 $fromName = "Your Name";											// From Name
-$fromThem = ("1" == "1" ? true : false);					// Use Sender as From Address
-$fromThemReplyTo = ("0" == "1" ? true : false);	// Use Sender as Reply-To
-$fromNameThem = ("0" == "1" ? true : false);			// Use Sender Name as From Name
+$fromThem = ("0" == "1" ? true : false);					// Use Sender as From Address
+$fromThemReplyTo = ("1" == "1" ? true : false);	// Use Sender as Reply-To
+$fromNameThem = ("1" == "1" ? true : false);			// Use Sender Name as From Name
 $fromNameThemField = "{name}";						// Name of the field(s) that can contain the Sender Name
 $template = "Hi,<br><br>You have received a new message from your website.<br><br>{formdata}<br><br>Date: {date}<br>Remote IP: {ip}<br><br>---<br>Have a nice day.";											// Mail Template
-$autorespondSubjectPrefix = "Re:";			// Autorespond Form Subject Prefix
+$autorespondSubjectPrefix = "Gracias por escribirnos";			// Autorespond Form Subject Prefix
 $autorespondSubject = "";						// Autorespond Custom Subject
 $autorespondTemplate = "Hi {name},<br><br>Thank you for your message. We'll get back to you as soon as we can.<br>Here's the information you sent us:<br><br>{formdata}<br><br>---<br>Have a nice day.";					// Autorespond Template
 $rcp = ("1" == "1" ? true : false);						// Use reCAPTCHA
-$rcpVersion = "2";								// reCAPTCHA Version
-$rcpScore = "0.5";									// reCAPTCHA Score
+$rcpVersion = "3";								// reCAPTCHA Version
+$rcpScore = "0.6";									// reCAPTCHA Score
 $rcpSecret = "6LeGNrEhAAAAAD_qt5qTEacC20TdtMaFNzaDxAAR";								// reCAPTCHA Secret Key
 $smtp = ("0" == "1" ? true : false);							// Use SMTP
 $smtpDebug = ("0" == "1" ? 3 : 0);						// SMTP Debug
